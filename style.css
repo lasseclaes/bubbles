@@ -4,7 +4,7 @@ div {
   width: 100px;
   height: 100px;
   border: 1px solid lightblue;
-  transition: all 1s;
+  transition: background 1s, transform 2s;
 }
 
 body {
