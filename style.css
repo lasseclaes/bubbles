@@ -1,3 +1,13 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 div {
   position: absolute;
   border-radius: 50%;
@@ -7,7 +17,7 @@ div {
   transition: background 1s, transform 2s;
 }
 
-body {
+main {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
   grid-gap: 1rem;

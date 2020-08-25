@@ -3,11 +3,15 @@ window.addEventListener("load", () => {
 })
 
 function setupCircles() {
-  const cs = document.querySelector('div');
+  const cs = document.querySelectorAll('div');
   cs.forEach(el => {
-      el.style.transform = ´translate($ {
-          Math.random() * 100;
-        }
-        vh´; console.log('hey');
-      });
-  }
+    //    console.log(`$ {
+    //      hi
+    //    }`);
+    el.style.transform = `translate(${
+            Math.random() * 100
+          }vw, ${
+            Math.random() * 100
+          }vh)`;
+  })
+}
